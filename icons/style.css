@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'app-icon';
+  src: url('app-icon.eot?edn4vb');
+  src: url('app-icon.eot?edn4vb#iefix')
+      format('embedded-opentype'),
+    url('app-icon.ttf?edn4vb') format('truetype'),
+    url('app-icon.woff?edn4vb') format('woff'),
+    url('app-icon.svg?edn4vb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'app-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-back:before {
+  content: '\e900';
+}
+.icon-camera:before {
+  content: '\e901';
+}
+.icon-category:before {
+  content: '\e902';
+}
+.icon-close_fullscreen:before {
+  content: '\e903';
+}
+.icon-close:before {
+  content: '\e904';
+}
+.icon-download:before {
+  content: '\e905';
+}
+.icon-forward:before {
+  content: '\e906';
+}
+.icon-menu:before {
+  content: '\e907';
+}
+.icon-open_fullscreen:before {
+  content: '\e908';
+}
+.icon-phone:before {
+  content: '\e909';
+}
+.icon-qq:before {
+  content: '\e90a';
+}
+.icon-share:before {
+  content: '\e90b';
+}
+.icon-wechat:before {
+  content: '\e90c';
+}
